@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+    max-width: 425px;
+    max-height: 2vh;
+}
+header{
+    background-color: white;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-row-gap: 1em; 
+}
+
+.header__h2{
+    color: #354463;
+    align-self: center;
+}
+
+.navbar__list{
+    list-style: none;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar__list__items{
+    margin-top: 0.5em;
+}
+.navbar__list__items a{
+    color:#354463;
+}
+
+.btn{
+    background-color:#C1F7D5;
+    border-radius: 1em;
+    height: 2em;
+    color:#354463;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.btn a{
+    display: block;
+    padding-top:0.5em;
+}
+
+.btn-donate{
+    grid-column: 1/3;
+}
+
+.section1{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+
+@font-face{
+    font-family: brush;
+    src: url("/assets/fonts/Flood.ttf")
+}
+.brush-font{
+    font-family: brush;
+    line-height: 1em;
+    font-size: 3em;
+}
+.brush-font--white{
+    color: white;
+}
+
+.brush-font--dark{
+    color:#354463;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    padding:0.5em;
+    text-align: center;
+}
+
+.section1__subsection1{
+    height: 18em;
+}
+.brush-font-section1{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.section1__subsection2{
+    padding: 0em 2em 3em 2em;
+}
+
+.title-box{
+    background-color:#C1F7D5;
+    height: 2em;
+    width: 8em;
+    display:block;
+    color:#354463;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-self: center;
+}
+
+.title-box a{
+    display: block;
+    padding-top:0.7em;
+    font-size: 0.8em;
+}
+
+.title-box--dark{
+    background-color: #354463
+}
+.title-box--dark a{
+    color: white;
+}
+
+.section1--card{
+    position:relative;
+}
+
+.issue-btn{
+    position: absolute;
+    top:-1em;
+}
+
+.section1--card{
+    height:13em;
+    color: #354463;
+}
+
+.section1__h2{
+    margin-top: 1.5em;
+}
+
+.section1__para{
+    padding: 2em;
+    text-decoration: underline;
+}
+
+.action-btn{
+    position: relative;
+    margin: auto;
+    bottom: -1em;
+}
+
+.section2{
+    height: 13em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.section2 > article{
+    padding: 1em;
+}
+
+.section2 > article > p{
+    margin-top: 0.4em;
+}
+
+/* section3 */
+
+.section3{
+    height: auto;
+}
+
+.s3box-top{
+    margin: auto;
+}
+
+.section3__row2{
+    margin-top: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+.section3--card{
+    width: 80%;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.section3__card-img{
+    height:60%;
+}
+
+.section3__card-img img{
+    width: 90%;
+    position: relative;
+    top:-2em;
+}
+
+.section3--card p{
+    margin: 1em;
+}
+
+.s3-btn{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+/* section-4 */
+
+.section4{
+    margin-top: 2em;
+}
+
+.section4-row1{
+    padding:2em;
+}
+
+.s4-btn{
+    margin-top: 1em;
+}
+
+.section4-card{
+    width: 80%;
+    margin: auto;
+    margin-top: 0.5em;
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.s4-box{
+    position: relative;
+    margin: auto;
+    bottom: -1.5em;
+}
+
+.section4-card-article{
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    padding: 1em;
+    text-align: left; 
+}
+
+.section4-card-article p{
+    margin-top: 1em;
+}
+
+.section4-icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section4-icon-container img{
+    width: 30%;
+}
+
+/* section5 */
+
+.section5{
+    height: auto;
+    margin-top: 2em;
+}
+
+.section5-row1-img-container{
+    background: url("/assets/home/lady-baby.png");
+    background-size: cover;
+    height: 20em;
+    width: 80%;
+    margin: auto;
+   
+}
+
+.s5-box{
+    margin: auto;
+    position: relative;
+    top:-1em;
+}
+
+.section5-row2{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.5em;
+}
+
+.section5-row2 article{
+    background-color: #354463;
+    color: #C1F7D5;
+    padding: 2em;
+}
+
+.section5-row2 article h2{
+    text-align: center;
+}
+
+.section5-row2 article p{
+    margin: 2em 0em;
+}
+
+.btn-container{
+    margin-top: 2em;
+}
+
+.s5-btn{
+    width: 50%;
+    margin: auto;
+}
+
+/* section6 */
+
+.section6{
+    margin-top: 2em;
+}
+
+.s6-brush{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.section6-img-container1{
+    width: 80%;
+    margin: auto;
+}
+
+.section6-img-container1 img{
+    width : 100%;
+}
