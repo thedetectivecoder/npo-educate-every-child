@@ -55,7 +55,7 @@ a {
   padding: 5%;
 }
 
-.section1 {
+.main-content {
   background-color: gray;
   display: flex;
   flex-direction: column;
@@ -91,15 +91,15 @@ a {
   text-align: center;
 }
 
-.section1__subsection1 {
+.main-content__subsection1 {
   height: 18em;
 }
-.brush-font-section1 {
+.brush-font-main-content {
   margin-left: 0.5em;
   margin-top: 0.5em;
 }
 
-.section1__subsection2 {
+.main-content__subsection2 {
   padding: 0em 2em 3em 2em;
 }
 
@@ -127,7 +127,7 @@ a {
   color: white;
 }
 
-.section1--card {
+.main-content--card {
   position: relative;
 }
 
@@ -136,16 +136,16 @@ a {
   top: -1em;
 }
 
-.section1--card {
+.main-content--card {
   height: 13em;
   color: #354463;
 }
 
-.section1__h2 {
+.main-content__h2 {
   margin-top: 1.5em;
 }
 
-.section1__para {
+.main-content__para {
   padding: 2em;
   text-decoration: underline;
 }
@@ -156,7 +156,7 @@ a {
   bottom: -1em;
 }
 
-.section2 {
+.take-action-section {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -164,17 +164,17 @@ a {
   padding: 1em;
 }
 
-.section2 > article {
+.take-action-section > article {
   padding: 1em;
 }
 
-.section2 > article > p {
+.take-action-section > article > p {
   margin-top: 0.4em;
 }
 
-/* section3 */
+/* what-we-do */
 
-.section3 {
+.what-we-do {
   height: auto;
   background-color: #354463;
   padding-bottom: 4em;
@@ -186,30 +186,30 @@ a {
   top: 2em;
 }
 
-.section3__row2 {
+.what-we-do__row2 {
   text-align: center;
   padding: 4em;
   color: #fff;
 }
 
-.section3--card {
+.what-we-do--card {
   width: 80%;
   margin: auto;
   margin-top: 3em;
 }
 
-.section3__card-img {
+.what-we-do__card-img {
   height: 60%;
 }
 
-.section3__card-img img {
+.what-we-do__card-img img {
   width: 90%;
   position: relative;
   top: -2em;
   height: 12em;
 }
 
-.section3--card p {
+.what-we-do--card p {
   margin: 1em;
 }
 
@@ -221,14 +221,14 @@ a {
 
 /* section-4 */
 
-.section4 {
+.did-you-know {
   background: url("/assets/home/did-you-know-background.jpg");
   background-size: cover;
   background-position: 50% -12em;
   padding-bottom: 3em;
 }
 
-.section4-row1 {
+.did-you-know-row1 {
   padding: 2em;
 }
 
@@ -237,7 +237,7 @@ a {
   width: 10em;
 }
 
-.section4-card {
+.did-you-know-card {
   width: 80%;
   margin: auto;
   margin-top: 0.5em;
@@ -251,24 +251,24 @@ a {
   bottom: -1.5em;
 }
 
-.section4-card-article {
+.did-you-know-card-article {
   margin-top: 1em;
   margin-bottom: 1em;
   padding: 1em;
   text-align: left;
 }
 
-.section4-card-article p {
+.did-you-know-card-article p {
   margin-top: 1em;
 }
 
-.section4-icon-container {
+.did-you-know-icon-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.section4-icon-container img {
+.did-you-know-icon-container img {
   width: 1.2em;
   height: 1.2em;
   background-color: #c1f7d5;
@@ -276,15 +276,15 @@ a {
   border-radius: 2em;
 }
 
-/* section5 */
+/* stories */
 
-.section5 {
+.stories {
   height: auto;
   margin-top: 2em;
   background-color: #fff;
 }
 
-.section5-row1-img-container {
+.stories-row1-img-container {
   background: url("/assets/home/lady-baby.png");
   background-size: cover;
   height: 20em;
@@ -298,23 +298,23 @@ a {
   top: -1em;
 }
 
-.section5-row2 {
+.stories-row2 {
   width: 80%;
   margin: auto;
   margin-top: 1.5em;
 }
 
-.section5-row2 article {
+.stories-row2 article {
   background-color: #354463;
   color: #c1f7d5;
   padding: 2em;
 }
 
-.section5-row2 article h2 {
+.stories-row2 article h2 {
   text-align: center;
 }
 
-.section5-row2 article p {
+.stories-row2 article p {
   margin: 2em 0em;
 }
 
@@ -328,9 +328,9 @@ a {
   margin-left: 25%;
 }
 
-/* section6 */
+/* event */
 
-.section6 {
+.event {
   background-color: #354463;
   color: #fff;
   padding-bottom: 4em;
@@ -347,7 +347,7 @@ a {
   margin-bottom: ;
 }
 
-.section6-img-container1 {
+.event-img-container1 {
   width: 80%;
   height: 20em;
   margin: auto;
@@ -355,7 +355,7 @@ a {
   background-size: cover;
 }
 
-.section6-img-container2 {
+.event-img-container2 {
   width: 80%;
   height: 20em;
   margin: auto;
@@ -376,12 +376,12 @@ a {
   top: -22em;
 }
 
-.section6-article {
+.event-article {
   margin: 1em 3em;
   text-align: center;
 }
 
-.section6-article p {
+.event-article p {
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -391,15 +391,15 @@ a {
   margin: auto;
 }
 
-/* section7 */
+/* subscribe */
 
-.section7 {
+.subscribe {
   background-color: #c1f7d5;
   padding: 2em;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.section7__btn-container {
+.subscribe__btn-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -410,7 +410,7 @@ a {
 .email-inp {
   width: 60%;
 }
-.section7__btn-container input {
+.subscribe__btn-container input {
   border-radius: 2em;
   height: 3em;
   text-align: center;
@@ -481,7 +481,7 @@ footer {
     font-size: 1.2em;
   }
 
-  .section1 {
+  .main-content {
     padding: 2em;
     background: url("/assets/home/annie-spratt-135307-unsplash.png");
     background-size: cover;
@@ -501,28 +501,28 @@ footer {
     margin-left: 4em;
   }
 
-  .section3--card {
+  .what-we-do--card {
     height: 16em;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .section3--card article {
+  .what-we-do--card article {
     grid-column: 2/3;
     grid-row: 1/3;
     align-self: center;
   }
 
-  .section4 {
+  .did-you-know {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
 
-  .section5-row1-img-container {
+  .stories-row1-img-container {
     height: 30em;
   }
 
-  .section5-row2 {
+  .stories-row2 {
     position: relative;
     top: -5em;
     right: -5em;
@@ -548,11 +548,11 @@ footer {
     top: 0em;
   }
 
-  .section6-img-container1 {
+  .event-img-container1 {
     margin-top: 0em;
   }
 
-  .section6-img-container2 {
+  .event-img-container2 {
     grid-column: 2;
     margin-top: 0em;
   }
@@ -567,11 +567,11 @@ footer {
     top: 0em;
   }
 
-  .section6-article__h2 {
+  .event-article__h2 {
     margin-top: 2em;
   }
 
-  .section6-article {
+  .event-article {
     text-align: left;
   }
 
@@ -579,7 +579,7 @@ footer {
     margin-top: 2em;
   }
 
-  .section7__heading {
+  .subscribe__heading {
     width: 70%;
   }
 
@@ -611,14 +611,14 @@ footer {
     margin-top: 1em;
   }
 
-  .section1 {
+  .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10%;
     padding-bottom: 0%;
   }
 
-  .section1__subsection2 {
+  .main-content__subsection2 {
     grid-column: 1;
     grid-row: 1;
   }
@@ -630,7 +630,7 @@ footer {
     bottom: -1em;
   }
 
-  .section2 {
+  .take-action-section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 2em;
     height: 6em;
@@ -640,38 +640,38 @@ footer {
     margin-left: 6em;
   }
 
-  .section3__row3 {
+  .what-we-do__row3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .section3--card {
+  .what-we-do--card {
     height: 25em;
     display: flex;
   }
 
-  .section4 {
+  .did-you-know {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background: url("/assets/home/did-you-know-background@3x.png");
     background-size: cover;
   }
 
-  .section4-row1 {
+  .did-you-know-row1 {
     margin: auto;
     margin-top: 0;
   }
 
-  .section4-card {
+  .did-you-know-card {
     width: 70%;
   }
 
-  .section5 {
+  .stories {
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .section5-row2 {
+  .stories-row2 {
     position: relative;
     top: 5em;
     left: 5em;
@@ -682,19 +682,19 @@ footer {
     margin: auto;
   }
 
-  .section6-article {
+  .event-article {
     text-align: left;
   }
 
-  .section7-container {
+  .subscribe-container {
     display: flex;
   }
 
-  .section7__btn-container {
+  .subscribe__btn-container {
     width: 50%;
   }
 
-  .section7__heading {
+  .subscribe__heading {
     margin-top: 0.5em;
   }
 
