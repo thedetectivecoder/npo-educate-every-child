@@ -157,7 +157,7 @@ a {
 }
 
 .section2 {
-  height: 13em;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 1em;
@@ -221,7 +221,7 @@ a {
 
 /* section-4 */
 
-.section4{
+.section4 {
   background: url("/assets/home/did-you-know-background.jpg");
   background-size: cover;
   background-position: 50% -12em;
@@ -269,7 +269,11 @@ a {
 }
 
 .section4-icon-container img {
-  width: 30%;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: #c1f7d5;
+  padding: 0.7em;
+  border-radius: 2em;
 }
 
 /* section5 */
@@ -471,7 +475,7 @@ footer {
     align-self: flex-start;
   }
 
-  .btn-donate{
+  .btn-donate {
     align-self: center;
     width: 10em;
     font-size: 1.2em;
@@ -681,7 +685,7 @@ footer {
   .section6-article {
     text-align: left;
   }
-  
+
   .section7-container {
     display: flex;
   }

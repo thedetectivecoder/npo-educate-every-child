@@ -1,4 +1,4 @@
-body{
+body {
   min-width: 320px;
 }
 .header-h2 {
@@ -22,20 +22,19 @@ body{
   padding: 0.5em;
 }
 
-
-.btn a{
+.btn a {
   text-decoration: none;
   padding: 1em;
 }
 
-.go-back-link a{
+.go-back-link a {
   color: #c1f7d5;
 }
 
-.process-payment-container{
+.process-payment-container {
   width: 100%;
 }
-.form-bottom-btn{
+.form-bottom-btn {
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -112,7 +111,7 @@ form div p {
   margin: 0%;
 }
 
-form div{
+form div {
   position: relative;
 }
 
@@ -121,24 +120,24 @@ form div label {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 0.5em;
   position: absolute;
-  top:0;
+  top: 0;
   pointer-events: none;
   transition: 0.5s;
 }
 
-.exp-date-inp-container label{
-  left :0;
+.exp-date-inp-container label {
+  left: 0;
   pointer-events: none;
   transition: 0.5s;
 }
 
-form input:focus ~ label{
-  top:-1em;
-};
+form input:focus ~ label {
+  top: -1em;
+}
 
-form select:focus ~ label{
-  top:-1em;
-};
+form select:focus ~ label {
+  top: -1em;
+}
 .address-input input {
   width: 100%;
 }
@@ -167,7 +166,7 @@ form select:focus ~ label{
   justify-content: space-between;
 }
 
-.exp-date-inp-container{
+.exp-date-inp-container {
   display: flex;
   flex-direction: column;
 }
@@ -176,11 +175,10 @@ form select:focus ~ label{
   width: 85%;
 }
 
-.process-payment{
+.process-payment {
   width: 70%;
   margin: auto;
   margin-bottom: 1.5em;
-
 }
 
 footer {
@@ -208,15 +206,14 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .header-h2{
+  .header-h2 {
     width: 19%;
   }
 
-  .process-payment{
+  .process-payment {
     width: 50%;
     margin: auto;
     margin-bottom: 1.5em;
-  
   }
 
   .footer {
@@ -233,39 +230,39 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-  .header{
+  .header {
     width: 100%;
   }
 
-  .header-h2{
+  .header-h2 {
     width: 17%;
   }
-  .donation-form-container{
+  .donation-form-container {
+    padding-left: 8em;
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .brush-container h2{
-    width: 50%;
-    font-size:3em;
+  .brush-container h2 {
+    font-size: 3em;
   }
 
-  .form-bottom-btn{
+  .form-bottom-btn {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
 
-  .process-payment-container{
+  .process-payment-container {
     position: relative;
   }
-  .process-payment{
+  .process-payment {
     width: 50%;
     position: absolute;
     right: 0;
   }
 
-  .go-back-link{
+  .go-back-link {
     width: 25%;
     margin-top: 5%;
   }
