@@ -206,7 +206,6 @@ a {
   width: 90%;
   position: relative;
   top: -2em;
-  height: 12em;
 }
 
 .what-we-do--card p {
@@ -502,7 +501,7 @@ footer {
   }
 
   .what-we-do--card {
-    height: 16em;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
