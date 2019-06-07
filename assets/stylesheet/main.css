@@ -476,6 +476,10 @@ a {
   width: 95%;
 }
 
+.subscribe__heading{
+  color:#354463;
+}
+
 .s7-subsc-btn {
   background-color: #354463;
   color: #c1f7d5;
@@ -961,7 +965,9 @@ footer {
   }
 
   .subscribe__heading {
-    margin-top: 0.5em;
+    
+    padding-left: 4em;
+    font-size: 1.8em;
   }
 
   footer {
