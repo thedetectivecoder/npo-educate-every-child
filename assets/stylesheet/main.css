@@ -311,13 +311,18 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
-.did-you-know-icon-container img {
-  width: 1.2em;
-  height: 1.2em;
+.twitter-icn{
   background-color: #c1f7d5;
-  padding: 0.7em;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.fb-icn{
+  background-color: #c1f7d5;
+  padding: 0.9em 1.3em 0.9em 1.3em;
   border-radius: 2em;
 }
 
