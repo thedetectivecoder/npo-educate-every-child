@@ -42,7 +42,7 @@ body {
 
 @font-face {
   font-family: brush;
-  src: url("/assets/fonts/Flood.ttf");
+  src: url("../fonts/Flood.ttf");
 }
 .brush-font {
   font-family: brush;
@@ -63,7 +63,7 @@ form > p {
   flex-direction: column;
 }
 .donation-form-container {
-  background: url("/assets/donation/annie-spratt-427340-unsplash.png");
+  background: url("../donation/annie-spratt-427340-unsplash.png");
   background-size: cover;
   background-position: center;
   color: white;

@@ -157,7 +157,7 @@ a {
 .action-btn {
   position: relative;
   margin: auto;
-  bottom: -1em;
+  bottom: -3em;
 }
 
 .take-action-section {
@@ -902,7 +902,7 @@ footer {
   }
 
   .what-we-do__article .article-heading{  
-    font-size: 1.6em;
+    font-size: 1.7em;
   }
 
   .s3-btn {
