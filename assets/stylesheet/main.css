@@ -21,7 +21,7 @@
 header {
   background-color: white;
   margin-top: 1em;
-  padding: 5%;
+  padding: 2em;
   display: grid;
   grid-template-rows: 2fr 1fr;
   grid-row-gap: 1em;
@@ -77,6 +77,7 @@ a {
   background: url("/assets/home/annie.png");
   background-size: cover;
   background-position: center top;
+  padding: 2em;
 }
 
 .brush-font {
@@ -96,7 +97,6 @@ a {
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 0.5em;
   text-align: center;
 }
 
@@ -104,12 +104,7 @@ a {
   height: 18em;
 }
 .brush-font-main-content {
-  margin-left: 0.5em;
   margin-top: 0.5em;
-}
-
-.main-content__subsection2 {
-  padding: 0em 2em 3em 2em;
 }
 
 .title-box {
@@ -146,6 +141,7 @@ a {
   color: #354463;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
 }
 
 .main-content__h2 {
@@ -168,13 +164,11 @@ a {
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 1em;
+  padding: 2em;
   background-color: #c1f7d5;
   color: #354463;
-}
-
-.take-action-section > article {
-  padding: 1em;
+  grid-row-gap: 2em;
+  grid-column-gap: 2em;
 }
 
 .take-action-section > article > p {
@@ -192,7 +186,9 @@ a {
 .what-we-do {
   height: auto;
   background-color: #354463;
+  padding: 0em 2em;
   padding-bottom: 4em;
+  
 }
 
 .s3box-top {
@@ -208,7 +204,7 @@ a {
 
 .what-we-do__row2 {
   text-align: center;
-  padding: 1em;
+  padding: 1em 0em;
   color: #fff;
   margin-top: 2em;
 }
@@ -231,7 +227,7 @@ a {
 }
 
 .what-we-do--card {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 3em;
 }
@@ -262,12 +258,10 @@ a {
   background: url("/assets/home/Did\ you\ know\ background\ mob.png");
   background-size: cover;
   background-position: 50%;
+  padding: 2em;
   padding-bottom: 3em;
 }
 
-.did-you-know-row1 {
-  padding: 2em;
-}
 
 .s4-btn {
   margin-top: 1em;
@@ -275,11 +269,11 @@ a {
 }
 
 .did-you-know-card {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 0.5em;
   display: grid;
-  grid-template-columns: 85% 15%;
+  grid-template-columns: 70% 30%;
 }
 
 .s4-box {
@@ -316,14 +310,22 @@ a {
 
 .twitter-icn{
   background-color: #c1f7d5;
-  padding: 1em;
-  border-radius: 2em;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fb-icn{
   background-color: #c1f7d5;
-  padding: 0.9em 1.3em 0.9em 1.3em;
-  border-radius: 2em;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* stories */
@@ -332,14 +334,14 @@ a {
   height: auto;
   margin-top: 2em;
   background-color: #fff;
-  margin-bottom: 4em;
+  padding: 2em;
+  margin-bottom: 2em;
 }
 
 .stories-row1-img-container {
   background: url("/assets/home/lady-baby.png");
   background-size: cover;
   height: 20em;
-  width: 80%;
   margin: auto;
 }
 
@@ -350,7 +352,6 @@ a {
 }
 
 .stories-row2 {
-  width: 80%;
   margin: auto;
   margin-top: 1.5em;
 }
@@ -388,12 +389,12 @@ a {
 .event {
   background-color: #354463;
   color: #fff;
+  padding: 2em;
   padding-top: 4em;
   padding-bottom: 4em;
 }
 
 .s6-brush {
-  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -404,7 +405,6 @@ a {
 }
 
 .event-img-container1 {
-  width: 80%;
   height: 20em;
   margin: auto;
   background: url("/assets/home/tree-planting.png");
@@ -412,7 +412,6 @@ a {
 }
 
 .event-img-container2 {
-  width: 80%;
   height: 20em;
   margin: auto;
   background: url("/assets/home/meeting.png");
@@ -433,7 +432,7 @@ a {
 }
 
 .event-article {
-  margin: 1em 3em;
+  margin: 1em;
   text-align: center;
 }
 
@@ -496,7 +495,6 @@ a {
 }
 
 footer {
-  margin: 3em 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3em;
@@ -504,6 +502,7 @@ footer {
   color: #354463;
   font-size: 0.8em;
   font-family: halvetica-light;
+  padding: 2em;
 }
 
 .footer__h5 {
@@ -533,7 +532,8 @@ footer {
   header {
     display: flex;
     justify-content: space-between;
-    margin-top: 0%;
+    padding: 5em;
+    padding-top: 1em;
     padding-bottom: 1em;
   }
 
@@ -557,7 +557,7 @@ footer {
   }
 
   .main-content {
-    padding: 2em;
+    padding: 0em 5em;
     background: url("/assets/home/annie-spratt-135307-unsplash@3x.png");
     background-size: cover;
     background-position: 80%;
@@ -582,13 +582,9 @@ footer {
     align-self: flex-start;
   }
 
-  .action-btn {
-    bottom: -3em;
-  }
-
   .take-action-section {
     grid-column-gap: 3em;
-    padding: 4em;
+    padding: 3em 5em;
   }
 
   .take-action-section__article-heading {
@@ -601,14 +597,19 @@ footer {
   }
 
   .s3box-top {
-    margin-left: 4em;
+    margin-left: 0;
+    top:0;
+  }
+
+  .what-we-do{
+    padding: 4em 5em;
   }
 
   .what-we-do__row2 {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 2em;
-    padding-left: 3em;
+    margin: 0;
   }
 
   .what-we-do--card {
@@ -644,13 +645,23 @@ footer {
   .did-you-know {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 3em;
+    padding: 2em 5em;
     background: url("/assets/home/did-you-know-background@3x.png");
     background-size: cover;
   }
 
+  .brush-did-you-know{
+    font-size: 3em;
+  }
+
+  .did-you-know-card-container{
+    padding: 0em 2em;
+    position: relative;
+    top: -2em;
+  }
   .did-you-know-card {
     margin-top: 1.5em;
+    
   }
 
   .s4-box {
@@ -674,6 +685,8 @@ footer {
 
   .stories {
     margin-bottom: 0em;
+    padding: 2em 5em;
+    padding-bottom: 0em;
   }
 
   .s5-box {
@@ -683,15 +696,14 @@ footer {
   }
 
   .stories-row1-img-container {
-    height: 30em;
-    width: 70%;
+    height: 36em;
   }
 
   .stories-row2 {
     position: relative;
     top: -5em;
     right: -3em;
-    width: 70%;
+    margin-top: 0;
   }
 
   .stories-row2 article {
@@ -717,13 +729,13 @@ footer {
 
   .s6-brush {
     text-align: left;
-    width: 90%;
   }
 
   .s6-row2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 4em;
+    grid-column-gap: 3em;
   }
 
   .s6-box1 {
@@ -731,12 +743,17 @@ footer {
     top: 0em;
   }
 
+  .event{
+    padding: 5em;
+  }
   .event-img-container1 {
-    margin-top: 0em;
+    margin: 0;
     background-position: 60%;
+    
   }
 
   .event-img-container2 {
+    margin: 0;
     grid-column: 2;
     margin-top: 0em;
   }
@@ -757,7 +774,6 @@ footer {
 
   .event-article {
     text-align: left;
-    margin: 1em 5em 0em 1em;
   }
 
   .event-article__h2 {
@@ -779,13 +795,10 @@ footer {
     margin-left: 0;
     background-color: #fff;
   }
-  .s6-article2 {
-    margin: 0em 1em 0em 5em;
+  
+  .subscribe{
+    padding: 2em 5em;
   }
-  .s6-btn {
-    margin-top: 2em;
-  }
-
   .subscribe__heading {
     width: 70%;
   }
@@ -794,9 +807,10 @@ footer {
     width: 100%;
   }
 
-  .footer {
+  footer {
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 1em;
+    padding: 5em;
   }
 
   .footer__div1 {
@@ -818,6 +832,10 @@ footer {
     width: 80%;
   }
 
+  .btn-donate{
+    width: 8em;
+  }
+
   .navbar {
     width: 60%;
     margin-top: 1em;
@@ -826,8 +844,8 @@ footer {
   .main-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 10%;
-    padding-bottom: 0%;
+    padding: 5em;
+    grid-column-gap: 3em;
   }
 
   .main-content__subsection2 {
@@ -839,30 +857,26 @@ footer {
     grid-column: 1/3;
   }
   .action-btn {
-    bottom: -1em;
+    bottom: -6em;
   }
 
   .take-action-section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1em 6em;
+    padding: 4em 5em;
     grid-column-gap: 0;
     height: auto;
   }
 
   .what-we-do {
-    padding: 1em 6em 6em;
+    padding: 5em;
   }
 
   .s3box-top {
     margin-left: 0;
   }
 
-  .what-we-do__row2 {
-    padding: 0;
-  }
-
   .what-we-do__row2 h2 {
-    font-size: 1.1em;
+    font-size: 1.7em;
     margin-bottom: 1em;
     padding: 0;
     line-height: 1.2em;
@@ -871,6 +885,7 @@ footer {
   .what-we-do__row3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
   }
 
   .what-we-do--card {
@@ -878,16 +893,16 @@ footer {
     display: flex;
   }
 
-  .what-we-do__card-img {
-    width: 17em;
-  }
-
   .what-we-do__card-img img {
-    right: -0.6em;
+    right: -1.8em;
   }
 
   .what-we-do--card article {
     padding: 0em 1em;
+  }
+
+  .what-we-do__article .article-heading{  
+    font-size: 1.6em;
   }
 
   .s3-btn {
@@ -898,18 +913,21 @@ footer {
 
   .did-you-know {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     background: url("/assets/home/did-you-know-background@3x.png");
     background-size: cover;
   }
 
-  .did-you-know-row1 {
-    margin: auto;
-    margin-top: 0;
+  .brush-did-you-know{
+    font-size: 4em;
   }
-
   .did-you-know-card {
     width: 70%;
+    padding: 1em;
+  }
+
+  .s4-box{
+    left:10em;
   }
 
   .stories {
@@ -919,18 +937,17 @@ footer {
   }
 
   .stories-row1-img-container {
-    height: 25em;
+    height: 30em;
+    width :80%;
+    position: relative;
+    left: -2em;
   }
 
   .stories-row2 {
     width: 60%;
     position: relative;
     top: 5em;
-    left: 5em;
-  }
-
-  .stories-row2 article {
-    padding: 2em 2em 1em 2em;
+    right: 0;
   }
 
   .stories-row2 article h2 {
@@ -949,10 +966,6 @@ footer {
   .event-article {
     text-align: left;
     margin-top: 0em;
-  }
-
-  .s6-row2 {
-    padding: 0em 5em;
   }
 
   .event-img-container1 {
@@ -980,7 +993,6 @@ footer {
   }
 
   .subscribe__heading {
-    padding-left: 4em;
     font-size: 1.8em;
   }
 
