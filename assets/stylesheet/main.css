@@ -654,7 +654,9 @@ footer {
   }
 
   .s4-box {
+    margin:0;
     bottom: -2.5em;
+    left: 4em;
   }
 
   .did-you-know-card-article__heading {
@@ -673,6 +675,13 @@ footer {
   .stories {
     margin-bottom: 0em;
   }
+
+  .s5-box {
+    margin: 0;
+    top: -1em;
+    left: 4em;
+  }
+
   .stories-row1-img-container {
     height: 30em;
     width: 70%;
