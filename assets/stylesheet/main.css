@@ -500,8 +500,9 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3em;
-  grid-column-gap: 0.5em;
+  grid-column-gap: 3.5em;
   color: #354463;
+  font-size: 0.8em;
   font-family: halvetica-light;
 }
 
@@ -786,6 +787,7 @@ footer {
 
   .footer {
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1em;
   }
 
   .footer__div1 {
