@@ -863,6 +863,10 @@ footer {
     width: 17em;
   }
 
+  .what-we-do__card-img img{
+    right:-0.6em;
+  }
+
   .what-we-do--card article{
     padding: 0em 1em;
   }
