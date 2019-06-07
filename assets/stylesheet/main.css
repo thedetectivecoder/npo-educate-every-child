@@ -5,17 +5,17 @@
 
 @font-face {
   font-family: brush;
-  src: url("assets/fonts/Flood.ttf");
+  src: url("../fonts/Flood.ttf");
 }
 
 @font-face {
   font-family: halvetica-light;
-  src: url("assets/fonts/Helvetica-Light.ttf");
+  src: url("../fonts/Helvetica-Light.ttf");
 }
 
 @font-face {
   font-family: halvetica-bold;
-  src: url("assets/fonts/Helvetica\ Bold.ttf");
+  src: url("../fonts/Helvetica\ Bold.ttf");
 }
 
 header {
@@ -74,7 +74,7 @@ a {
   background-color: gray;
   display: flex;
   flex-direction: column;
-  background: url("assets/home/annie.png");
+  background: url("../home/annie.png");
   background-size: cover;
   background-position: center top;
   padding: 2em;
@@ -255,7 +255,7 @@ a {
 /* section-4 */
 
 .did-you-know {
-  background: url("assets/home/Did\ you\ know\ background\ mob.png");
+  background: url("../home/Did\ you\ know\ background\ mob.png");
   background-size: cover;
   background-position: 50%;
   padding: 2em;
@@ -339,7 +339,7 @@ a {
 }
 
 .stories-row1-img-container {
-  background: url("assets/home/lady-baby.png");
+  background: url("../home/lady-baby.png");
   background-size: cover;
   height: 20em;
   margin: auto;
@@ -407,14 +407,14 @@ a {
 .event-img-container1 {
   height: 20em;
   margin: auto;
-  background: url("assets/home/tree-planting.png");
+  background: url("../home/tree-planting.png");
   background-size: cover;
 }
 
 .event-img-container2 {
   height: 20em;
   margin: auto;
-  background: url("assets/home/meeting.png");
+  background: url("../home/meeting.png");
   background-size: cover;
   margin-top: 4em;
 }
@@ -558,7 +558,7 @@ footer {
 
   .main-content {
     padding: 0em 5em;
-    background: url("assets/home/annie-spratt-135307-unsplash@3x.png");
+    background: url("../home/annie-spratt-135307-unsplash@3x.png");
     background-size: cover;
     background-position: 80%;
   }
@@ -646,7 +646,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 2em 5em;
-    background: url("assets/home/did-you-know-background@3x.png");
+    background: url("../home/did-you-know-background@3x.png");
     background-size: cover;
   }
 
@@ -914,7 +914,7 @@ footer {
   .did-you-know {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background: url("assets/home/did-you-know-background@3x.png");
+    background: url("../home/did-you-know-background@3x.png");
     background-size: cover;
   }
 
