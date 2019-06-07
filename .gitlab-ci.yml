@@ -11,3 +11,6 @@ pages:
     - public
   only:
   - master
+  baseurl: /Non-Profit_website-yatin
+  url: http://yatinburhmi_mountblue.gitlab.io
+  
