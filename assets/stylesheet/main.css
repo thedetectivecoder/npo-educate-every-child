@@ -33,7 +33,7 @@ header {
   font-family: halvetica-light;
 }
 .header__h2 {
-  color: #354463;
+  color: #D00000;
   align-self: center;
   font-family: halvetica-bold;
 }
@@ -52,14 +52,14 @@ a {
   margin-top: 0.5em;
 }
 .navbar__list__items a {
-  color: #354463;
+  color: #D00000;
 }
 
 .btn {
-  background-color: #c1f7d5;
+  background-color: #FFBA08;
   display: inline-block;
   border-radius: 2em;
-  color: #354463;
+  color: #9D0208;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -68,13 +68,14 @@ a {
 .btn a {
   display: block;
   padding: 4%;
+  color: #9D0208;
 }
 
 .main-content {
   background-color: gray;
   display: flex;
   flex-direction: column;
-  background: url("../home/annie.png");
+  background: url("../images/home/girlBoard.jpg");
   background-size: cover;
   background-position: center top;
   padding: 2em;
@@ -90,7 +91,7 @@ a {
 }
 
 .brush-font--dark {
-  color: #354463;
+  color: #D00000;
 }
 
 .card {
@@ -108,7 +109,7 @@ a {
 }
 
 .title-box {
-  background-color: #c1f7d5;
+  background-color: #fff;
   height: 2em;
   width: 8em;
   display: block;
@@ -125,7 +126,7 @@ a {
 }
 
 .title-box--dark {
-  background-color: #354463;
+  background-color: #D00000;
 }
 .title-box--dark a {
   color: white;
@@ -138,7 +139,7 @@ a {
 
 .main-content--card {
   height: auto;
-  color: #354463;
+  color: #D00000;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
   padding: 1em;
@@ -154,6 +155,10 @@ a {
   font-size: 0.9em;
 }
 
+.main-content__para a{
+  color: #D00000;
+}
+
 .action-btn {
   position: relative;
   margin: auto;
@@ -165,8 +170,8 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2em;
-  background-color: #c1f7d5;
-  color: #354463;
+  background-color: #03071E;
+  color: #FFBA08;
   grid-row-gap: 2em;
   grid-column-gap: 2em;
 }
@@ -185,7 +190,7 @@ a {
 
 .what-we-do {
   height: auto;
-  background-color: #354463;
+  background-color: #370617;
   padding: 0em 2em;
   padding-bottom: 4em;
   
@@ -196,6 +201,10 @@ a {
   position: relative;
   top: 2em;
   background-color: #fff;
+}
+
+.s3box-top a{
+  color: #D00000;
 }
 
 .what-we-do__h2 {
@@ -210,7 +219,7 @@ a {
 }
 
 .what-we-do__article {
-  color: #354463;
+  color: #D00000;
 }
 
 .what-we-do__article .article-heading {
@@ -255,7 +264,7 @@ a {
 /* section-4 */
 
 .did-you-know {
-  background: url("../home/Did\ you\ know\ background\ mob.png");
+  background: url("../images/home/bookBlack.jpg");
   background-size: cover;
   background-position: 50%;
   padding: 2em;
@@ -287,7 +296,7 @@ a {
   margin-bottom: 1em;
   padding: 1em;
   text-align: left;
-  color: #354463;
+  color: #D00000;
 }
 
 .did-you-know-card-article__heading {
@@ -309,7 +318,7 @@ a {
 }
 
 .twitter-icn{
-  background-color: #c1f7d5;
+  background-color: #FFBA08;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -319,7 +328,7 @@ a {
 }
 
 .fb-icn{
-  background-color: #c1f7d5;
+  background-color: #FFBA08;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -339,7 +348,7 @@ a {
 }
 
 .stories-row1-img-container {
-  background: url("../home/lady-baby.png");
+  background: url("../images/home/boyHappy.jpg");
   background-size: cover;
   height: 20em;
   margin: auto;
@@ -357,8 +366,8 @@ a {
 }
 
 .stories-row2 article {
-  background-color: #354463;
-  color: #c1f7d5;
+  background-color: #03071E;
+  color: #FFBA08;
   padding: 1.5em;
 }
 
@@ -387,7 +396,7 @@ a {
 /* event */
 
 .event {
-  background-color: #354463;
+  background-color: #370617;
   color: #fff;
   padding: 2em;
   padding-top: 4em;
@@ -401,20 +410,20 @@ a {
 
 .s6-row2 {
   margin-top: 5em;
-  margin-bottom: ;
+  /* margin-bottom: ; */
 }
 
 .event-img-container1 {
   height: 20em;
   margin: auto;
-  background: url("../home/tree-planting.png");
+  background: url("../images/home/studentsStudying.jpg");
   background-size: cover;
 }
 
 .event-img-container2 {
   height: 20em;
   margin: auto;
-  background: url("../home/meeting.png");
+  background: url("../images/home/boyStudying.jpg");
   background-size: cover;
   margin-top: 4em;
 }
@@ -429,6 +438,14 @@ a {
   margin: auto;
   position: relative;
   top: -22em;
+}
+
+.s6-box1 a{
+  color: #D00000;
+}
+
+.s6-box2 a{
+  color: #D00000;
 }
 
 .event-article {
@@ -455,7 +472,7 @@ a {
 /* subscribe */
 
 .subscribe {
-  background-color: #c1f7d5;
+  background-color: #03071E;
   padding: 2em;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -480,17 +497,16 @@ a {
 }
 
 .subscribe__heading {
-  color: #354463;
+  color: #FFBA08;
 }
 
 .s7-subsc-btn {
-  background-color: #354463;
-  color: #c1f7d5;
+  background-color: #FFBA08;
   width: 40%;
 }
 
 .s7-subsc-btn a {
-  color: #c1f7d5;
+  color: #9D0208;
   margin-top: 0.3em;
 }
 
@@ -499,10 +515,14 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 3em;
   grid-column-gap: 3.5em;
-  color: #354463;
+  color: #D00000;
   font-size: 0.8em;
   font-family: halvetica-light;
   padding: 2em;
+}
+
+.red-footer a{
+  color: #D00000
 }
 
 .footer__h5 {
@@ -515,9 +535,17 @@ footer {
   flex-direction: column;
 }
 
+.div3__links a{
+  color: #D00000;
+}
+
 .div4__links {
   display: flex;
   flex-direction: column;
+}
+
+.div4__links a{
+  color: #D00000;
 }
 
 .footer__div5 {
@@ -558,7 +586,7 @@ footer {
 
   .main-content {
     padding: 0em 5em;
-    background: url("../home/annie-spratt-135307-unsplash@3x.png");
+    background: url("../images/home/girlBoard.jpg");
     background-size: cover;
     background-position: 80%;
   }
@@ -646,7 +674,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 2em 5em;
-    background: url("../home/did-you-know-background@3x.png");
+    background: url("../images/home/bookBlack.jpg");
     background-size: cover;
   }
 
@@ -707,7 +735,7 @@ footer {
   }
 
   .stories-row2 article {
-    color: #fff;
+    color: #FFBA08;
     padding: 3.5em;
     text-align: left;
   }
@@ -846,6 +874,8 @@ footer {
     grid-template-columns: 2fr 1fr;
     padding: 5em;
     grid-column-gap: 3em;
+    background-size: 125%;
+    background-position: 0%;
   }
 
   .main-content__subsection2 {
@@ -862,8 +892,7 @@ footer {
 
   .take-action-section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 4em 5em;
-    grid-column-gap: 0;
+    padding: 5em 5em;
     height: auto;
   }
 
@@ -914,7 +943,7 @@ footer {
   .did-you-know {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background: url("../home/did-you-know-background@3x.png");
+    background: url("../images/home/bookBlack.jpg");
     background-size: cover;
   }
 
@@ -1005,7 +1034,7 @@ footer {
   }
   .hori-rule {
     display: block;
-    color: #354463;
+    color: #212529;
     margin: 0.5em;
     margin-left: 0;
   }

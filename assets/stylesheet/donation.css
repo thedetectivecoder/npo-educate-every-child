@@ -6,29 +6,35 @@ body {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
-  color: #354463;
+  color: #D00000;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
-  background-color: #c1f7d5;
+  background-color: #FFBA08;
+  color: #D00000;
   border-radius: 2em;
-  color: #354463;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin: 1em;
   margin-left: 0;
-  padding: 0.5em;
+  padding: 0.7em;
+  width: 16em;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn a {
   text-decoration: none;
   padding: 1em;
+  color: #D00000;
 }
 
 .go-back-link a {
-  color: #c1f7d5;
+  color: #fff;
 }
 
 .process-payment-container {
@@ -54,7 +60,7 @@ body {
 }
 
 .brush-font--dark {
-  color: #354463;
+  color: #D00000;
 }
 
 form > p {
@@ -63,7 +69,7 @@ form > p {
   flex-direction: column;
 }
 .donation-form-container {
-  background: url("../donation/annie-spratt-427340-unsplash.png");
+  background: url("../images/donation/childrenHappy.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -79,16 +85,16 @@ form > p {
 }
 
 select {
-  background-color: #354463;
+  background-color: #370617;
   color: #fff;
   border: 0;
-  border-bottom: 2px solid #c1f7d5;
+  border-bottom: 2px solid #fff;
   width: 90%;
 }
 
 .donation-form {
   padding: 1em;
-  background-color: #354463;
+  background-color: #370617;
   width: 90%;
   margin: auto;
 }
@@ -101,14 +107,14 @@ form {
 
 form input {
   border: 0;
-  border-bottom: 2px solid #c1f7d5;
+  border-bottom: 2px solid #fff;
   width: 100%;
-  background-color: #354463;
+  background-color: #370617;
   color: #fff;
 }
 
 form div p {
-  margin: 0%;
+  margin: 4%;
 }
 
 form div {
@@ -118,17 +124,11 @@ form div {
 form div label {
   font-size: 0.7em;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 0.5em;
-  position: absolute;
-  top: 0;
-  pointer-events: none;
-  transition: 0.5s;
 }
 
 .exp-date-inp-container label {
   left: 0;
   pointer-events: none;
-  transition: 0.5s;
 }
 
 form input:focus ~ label {
@@ -182,13 +182,23 @@ form select:focus ~ label {
 }
 
 footer {
-  margin: 3em 1em;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-row-gap: 3em;
+  grid-column-gap: 3.5em;
+  color: #D00000;
+  font-size: 0.8em;
+  font-family: halvetica-light;
+  padding: 2em;
+}
+
+.red-footer a{
+  color: #D00000
 }
 
 .footer__h5 {
-  font-size: 1.5em;
+  font-family: halvetica-bold;
+  font-size: 1em;
 }
 
 .div3__links {
@@ -196,13 +206,25 @@ footer {
   flex-direction: column;
 }
 
+.div3__links a{
+  color: #D00000;
+}
+
 .div4__links {
   display: flex;
   flex-direction: column;
 }
 
+.div4__links a{
+  color: #D00000;
+}
+
 .footer__div5 {
   grid-column: 2;
+}
+
+.hori-rule {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -216,8 +238,10 @@ footer {
     margin-bottom: 1.5em;
   }
 
-  .footer {
+  footer {
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1em;
+    padding: 5em;
   }
 
   .footer__div1 {
@@ -227,7 +251,12 @@ footer {
   .footer__div5 {
     grid-column: 3;
   }
+
+  .hori-rule {
+    display: none;
+  }
 }
+
 
 @media only screen and (min-width: 1024px) {
   .header {
@@ -273,5 +302,11 @@ footer {
 
   .footer__div5 {
     grid-column: 5;
+  }
+  .hori-rule {
+    display: block;
+    color: #212529;
+    margin: 0.5em;
+    margin-left: 0;
   }
 }
